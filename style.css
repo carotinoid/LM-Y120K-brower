@@ -1,0 +1,16 @@
+/*LM-Y120K height : 107.9mm, width : 55mm*/
+body {
+  background-color : black;
+  color : white;
+}
+
+div.url {
+  width : 50mm;
+  height: 20mm;
+  background-color:gray;
+}
+
+p {
+  text-align : center;
+  padding-top:50%;
+}
