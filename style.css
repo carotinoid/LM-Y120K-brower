@@ -5,12 +5,11 @@ body {
 }
 
 div.url {
-  width : 50mm;
-  height: 20mm;
+  width : 300px;
+  height: 60px;
   background-color:gray;
 }
 
-p {
+a {
   text-align : center;
-  padding-top:50%;
 }
