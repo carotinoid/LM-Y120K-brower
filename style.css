@@ -4,12 +4,26 @@ body {
   color : white;
 }
 
+p {
+  margin:10px;
+}
+
 div.url {
   width : 300px;
   height: 60px;
-  background-color:gray;
 }
 
 a {
   text-align : center;
+}
+a.black:link {
+  color:black;
+  text-decoration:none;
+}
+a.black:visited {
+  color:black;
+  text-decoration:none;
+}
+a.black:hover {
+  color:gray;
 }
