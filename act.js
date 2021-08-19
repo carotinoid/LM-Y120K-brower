@@ -1,4 +1,4 @@
 function getsearch() {
-  const input=document.querySelector("body input");
+  const input=document.getElementById("searchBox");
   location.href=`https://www.google.co.kr/search?q=${input.value}`;
 }

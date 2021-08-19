@@ -31,8 +31,7 @@ a.black:hover {
 div.searchOut {
   padding: solid 1px white;
 }
-span.searchIn {
-  background-color:white;
-  color:black;
-  height:21px;
+
+#searchBox {
+
 }
