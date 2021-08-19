@@ -27,3 +27,12 @@ a.black:visited {
 a.black:hover {
   color:gray;
 }
+
+div.searchOut {
+  padding: solid 1px white;
+}
+span.searchIn {
+  background-color:white;
+  color:black;
+  height:21px;
+}
