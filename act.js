@@ -1,6 +1,5 @@
 function getsearch() {
   const input=document.getElementById("searchBox");
-  window.location.replace(`https://www.google.co.kr/search?q=${input.value}`);
+  document.getElementById("searchBox").innerHMTL=
+      `<a href="https://www.google.co.kr/search?q=${input}">Go!</a>`;
 }
-
-document.querySelector("body input[type='button']").addEventListener('click',getsearch);
